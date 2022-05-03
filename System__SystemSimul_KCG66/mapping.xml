@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--$********** SCADE Suite KCG 32-bit 6.6.2 (build i4) **********
+** Command: kcg662.exe -config C:/Users/missael/Documents/CINVESTAV/embedded critical software/Project/CC-003/System__SystemSimul_KCG66/config.txt
+** Generation date: 2022-04-26T09:36:58
+*************************************************************$-->
+<mapping>
+  <config>
+    <option name="use_types" value="#off#"/>
+    <option name="imported_root_package" value="#off#"/>
+    <option name="root_package" value="#off#"/>
+    <option name="xml_basename" value="kcg_xml_filter_out.scade"/>
+    <option name="state_vector" value="#off#"/>
+    <option name="static" value="#off#"/>
+    <option name="separate_io_all" value="#off#"/>
+    <option name="no_separate_io" value="#off#"/>
+    <option name="separate_io" value="#off#"/>
+    <option name="warn_error" value="#off#"/>
+    <option name="short_circuit" value="#off#"/>
+    <option name="wrap_c_ops" value="#off#"/>
+    <option name="input_file"
+        value="C:/Users/missael/Documents/CINVESTAV/embedded critical software/Project/CruiseControl/Libraries/CarType/CarType.xscade"/>
+    <option name="input_file"
+        value="C:/Users/missael/Documents/CINVESTAV/embedded critical software/Project/CruiseControl/Libraries/Car/Car.xscade"/>
+    <option name="input_file" value="C:/Program Files/ANSYS Inc/v221/SCADE/SCADE/libraries/SC65/libverif/libverif.xscade"/>
+    <option name="input_file" value="C:/Program Files/ANSYS Inc/v221/SCADE/SCADE/libraries/SC65/libpwlinear/lut.xscade"/>
+    <option name="input_file"
+        value="C:/Program Files/ANSYS Inc/v221/SCADE/SCADE/libraries/SC65/libpwlinear/pwlinear.xscade"/>
+    <option name="input_file" value="C:/Program Files/ANSYS Inc/v221/SCADE/SCADE/libraries/SC65/libmathext/mathext.xscade"/>
+    <option name="input_file" value="C:/Program Files/ANSYS Inc/v221/SCADE/SCADE/libraries/SC65/libmath/math.xscade"/>
+    <option name="input_file" value="C:/Program Files/ANSYS Inc/v221/SCADE/SCADE/libraries/SC65/libmath/vect.xscade"/>
+    <option name="input_file" value="C:/Program Files/ANSYS Inc/v221/SCADE/SCADE/libraries/SC65/liblinear/filters.xscade"/>
+    <option name="input_file" value="C:/Program Files/ANSYS Inc/v221/SCADE/SCADE/libraries/SC65/liblinear/linear.xscade"/>
+    <option name="input_file"
+        value="C:/Program Files/ANSYS Inc/v221/SCADE/SCADE/libraries/SC65/libdigital/TruthTables.xscade"/>
+    <option name="input_file" value="C:/Program Files/ANSYS Inc/v221/SCADE/SCADE/libraries/SC65/libdigital/digital.xscade"/>
+    <option name="input_file"
+        value="C:/Users/missael/Documents/CINVESTAV/embedded critical software/Project/CC-003/Package5.xscade"/>
+    <option name="input_file"
+        value="C:/Users/missael/Documents/CINVESTAV/embedded critical software/Project/CC-003/System.xscade"/>
+    <option name="input_file"
+        value="C:/Users/missael/Documents/CINVESTAV/embedded critical software/Project/CC-003/CruiseControl.xscade"/>
+    <option name="input_file"
+        value="C:/Users/missael/Documents/CINVESTAV/embedded critical software/Project/CC-003/Defs.xscade"/>
+    <option name="input_file"
+        value="C:/Users/missael/Documents/CINVESTAV/embedded critical software/Project/CC-003/Proof.xscade"/>
+    <option name="probes" value="#off#"/>
+    <option name="debug" value="#off#"/>
+    <option name="no_observe" value="#off#"/>
+    <option name="observe" value="#off#"/>
+    <option name="user_config" value="#off#"/>
+    <option name="input_threshold" value="#off#"/>
+    <option name="header" value="#off#"/>
+    <option name="significance_length" value="31"/>
+    <option name="name_length" value="200"/>
+    <option name="globals_prefix" value="#off#"/>
+    <option name="keep_asserts" value="#off#"/>
+    <option name="global_root_context" value="#off#"/>
+    <option name="expall" value="#off#"/>
+    <option name="noexp" value="#off#"/>
+    <option name="exp" value="#off#"/>
+    <option name="target_dir"
+        value="C:/Users/missael/Documents/CINVESTAV/embedded critical software/Project/CC-003/System__SystemSimul_KCG66"/>
+    <option name="target" value="C"/>
+    <option name="root" value="System::SystemSimul"/>
+    <option name="auth" value="#off#"/>
+  </config>
+  <model>
+    <array id="1" baseType="13" size="5"/>
+    <predefType id="2" name="bool"/>
+    <predefType id="3" name="char"/>
+    <predefType id="4" name="int8"/>
+    <predefType id="5" name="int16"/>
+    <predefType id="6" name="int32"/>
+    <predefType id="7" name="int64"/>
+    <predefType id="8" name="uint8"/>
+    <predefType id="9" name="uint16"/>
+    <predefType id="10" name="uint32"/>
+    <predefType id="11" name="uint64"/>
+    <predefType id="12" name="float32"/>
+    <predefType id="13" name="float64"/>
+    <predefType id="14" name="size"/>
+    <package id="15" name="Proof"/>
+    <package id="16" name="Defs">
+      <constant id="17" name="ZeroSpeed" imported="false" type="35"/>
+      <constant id="18" name="ZeroPercent" imported="false" type="34"/>
+      <constant id="19" name="SpeedMin" imported="false" type="35"/>
+      <constant id="20" name="SpeedMax" imported="false" type="35"/>
+      <constant id="21" name="SpeedInc" imported="false" type="35"/>
+      <constant id="22" name="RegulThrottleMax" imported="false" type="34"/>
+      <constant id="23" name="PedalsMin" imported="false" type="34"/>
+      <constant id="24" name="Kp" imported="false" type="13"/>
+      <constant id="25" name="Ki" imported="false" type="13"/>
+      <constant id="26" name="SensorConst" imported="false" type="13"/>
+      <constant id="27" name="BrakeConst" imported="false" type="228"/>
+      <constant id="28" name="SecondBrakeConst" imported="false" type="228"/>
+      <enum id="29" name="tCruiseState">
+        <value id="30" name="OFF" default="false"/>
+        <value id="31" name="INT" default="false"/>
+        <value id="32" name="STDBY" default="false"/>
+        <value id="33" name="ON" default="false"/>
+      </enum>
+      <type id="34" name="tPercent" imported="false" type="13"/>
+      <type id="35" name="tSpeed" imported="false" type="13"/>
+      <type id="36" name="tRpm" imported="false" type="13"/>
+    </package>
+    <package id="37" name="CruiseControl">
+      <operator id="38" name="SaturateThrottle" imported="false" root="false" expanded="false">
+        <input id="39" name="ThrottleIn" clock="false" type="34"/>
+        <output id="40" name="ThrottleOut" clock="false" type="34"/>
+        <output id="41" name="Saturate" clock="false" type="2"/>
+      </operator>
+      <operator id="42" name="CruiseControl" imported="false" root="false" expanded="false">
+        <input id="43" name="On" clock="false" type="2"/>
+        <input id="44" name="Off" clock="false" type="2"/>
+        <input id="45" name="Resume" clock="false" type="2"/>
+        <input id="46" name="Set" clock="false" type="2"/>
+        <input id="47" name="QuickAccel" clock="false" type="2"/>
+        <input id="48" name="QuickDecel" clock="false" type="2"/>
+        <input id="49" name="Accel" clock="false" type="228"/>
+        <input id="50" name="Brake" clock="false" type="228"/>
+        <input id="51" name="Speed" clock="false" type="230"/>
+        <output id="52" name="CruiseSpeed" clock="false" type="35"/>
+        <output id="53" name="ThrottleCmd" clock="false" type="228"/>
+        <output id="54" name="CruiseState" clock="false" type="29"/>
+        <automaton id="55" name="SM1">
+          <state id="56" name="Off" initial="true" final="false" default="false">
+            <fork id="57" name="1" kind="strong">
+              <transition id="58" dest="59"/>
+            </fork>
+          </state>
+          <state id="59" name="Enabled" initial="false" final="false" default="false">
+            <automaton id="60" name="SM2">
+              <state id="61" name="Active" initial="true" final="false" default="false">
+                <automaton id="62" name="SM3">
+                  <state id="63" name="On" initial="true" final="false" default="false">
+                    <instance id="64" name="3" op="100" expanded="false"/>
+                    <fork id="65" name="1" kind="strong">
+                      <transition id="66" dest="67"/>
+                    </fork>
+                  </state>
+                  <state id="67" name="StandBy" initial="false" final="false" default="false">
+                    <fork id="68" name="1" kind="strong">
+                      <transition id="69" dest="63"/>
+                    </fork>
+                  </state>
+                </automaton>
+                <fork id="70" name="1" kind="strong">
+                  <transition id="71" dest="72"/>
+                </fork>
+              </state>
+              <state id="72" name="Interrupt" initial="false" final="false" default="false">
+                <fork id="73" name="1" kind="strong">
+                  <transition id="74" dest="61"/>
+                </fork>
+              </state>
+            </automaton>
+            <instance id="75" name="1" op="78" expanded="false"/>
+            <fork id="76" name="1" kind="strong">
+              <transition id="77" dest="56"/>
+            </fork>
+          </state>
+        </automaton>
+      </operator>
+      <operator id="78" name="CruiseSpeedMgt" imported="false" root="false" expanded="false">
+        <input id="79" name="Set" clock="false" type="2"/>
+        <input id="80" name="QuickAccel" clock="false" type="2"/>
+        <input id="81" name="QuickDecel" clock="false" type="2"/>
+        <input id="82" name="Speed" clock="false" type="230"/>
+        <output id="83" name="CruiseSpeed" clock="false" type="35"/>
+        <block id="84" name="IfBlock1" type="2">
+          <branch id="85" name="else">
+            <branch id="86" name="else">
+              <branch id="87" name="else">
+                <last id="88"/>
+              </branch>
+              <branch id="89" name="then">
+                <last id="90"/>
+              </branch>
+            </branch>
+            <branch id="91" name="then">
+              <last id="92"/>
+            </branch>
+          </branch>
+          <branch id="93" name="then"/>
+        </block>
+        <instance id="94" name="1" op="198" expanded="true">
+          <input id="95" name="LUS_Input" clock="false" type="13"/>
+          <input id="96" name="LowLimit" clock="false" type="13"/>
+          <input id="97" name="HighLimit" clock="false" type="13"/>
+          <output id="98" name="LUS_Output" clock="false" type="13"/>
+          <assume id="99" name="A1"/>
+        </instance>
+      </operator>
+      <operator id="100" name="CruiseRegulation" imported="false" root="false" expanded="false">
+        <input id="101" name="CruiseSpeed" clock="false" type="35"/>
+        <input id="102" name="VehiculeSpeed" clock="false" type="35"/>
+        <output id="103" name="Throttle" clock="false" type="34"/>
+        <instance id="104" name="1" op="38" expanded="false"/>
+        <fby id="105" name="1"/>
+        <fby id="106" name="2"/>
+        <instance id="107" name="1" op="185" expanded="true">
+          <input id="108" name="G_Input" clock="false" type="13"/>
+          <input id="109" name="Gain" clock="false" type="13"/>
+          <output id="110" name="G_Output" clock="false" type="13"/>
+        </instance>
+        <instance id="111" name="2" op="185" expanded="true">
+          <input id="112" name="G_Input" clock="false" type="13"/>
+          <input id="113" name="Gain" clock="false" type="13"/>
+          <output id="114" name="G_Output" clock="false" type="13"/>
+        </instance>
+      </operator>
+    </package>
+    <package id="115" name="System">
+      <operator id="116" name="SystemSimul" imported="false" root="true" expanded="false">
+        <input id="117" name="On" clock="false" type="2"/>
+        <input id="118" name="Off" clock="false" type="2"/>
+        <input id="119" name="Resume" clock="false" type="2"/>
+        <input id="120" name="Set" clock="false" type="2"/>
+        <input id="121" name="QuickAccel" clock="false" type="2"/>
+        <input id="122" name="QuickDecel" clock="false" type="2"/>
+        <input id="123" name="Accel" clock="false" type="34"/>
+        <input id="124" name="Brake" clock="false" type="34"/>
+        <input id="125" name="OnEmergencyBrake" clock="false" type="2"/>
+        <input id="126" name="OffEmergencyBrake" clock="false" type="2"/>
+        <input id="127" name="SterringWheel" clock="false" type="2"/>
+        <input id="128" name="Time" clock="false" type="13"/>
+        <output id="129" name="CruiseSpeed" clock="false" type="35"/>
+        <output id="130" name="CruiseState" clock="false" type="29"/>
+        <output id="131" name="CarSpeed" clock="false" type="35"/>
+        <instance id="132" name="1" op="221" expanded="false"/>
+        <fby id="133" name="1"/>
+        <instance id="134" name="1" op="42" expanded="false"/>
+        <instance id="135" name="1" op="140" expanded="false"/>
+      </operator>
+    </package>
+    <package id="136" name="AutonomousEmergencyBrake">
+      <operator id="137" name="ArduinoCalculation" imported="false" root="false" expanded="false">
+        <input id="138" name="Time" clock="false" type="13"/>
+        <output id="139" name="Long" clock="false" type="13"/>
+      </operator>
+      <operator id="140" name="AutonomousEmergencyBrake" imported="false" root="false" expanded="false">
+        <input id="141" name="On" clock="false" type="2"/>
+        <input id="142" name="Off" clock="false" type="2"/>
+        <input id="143" name="SteeringWheel" clock="false" type="2"/>
+        <input id="144" name="Time" clock="false" type="13"/>
+        <input id="145" name="Brake" clock="false" type="228"/>
+        <output id="146" name="BrakePercent" clock="false" type="228"/>
+        <automaton id="147" name="SM1">
+          <state id="148" name="Off" initial="true" final="false" default="false">
+            <fork id="149" name="1" kind="strong">
+              <transition id="150" dest="151"/>
+            </fork>
+          </state>
+          <state id="151" name="Enabled" initial="false" final="false" default="false">
+            <automaton id="152" name="SM2">
+              <state id="153" name="Active" initial="true" final="false" default="false">
+                <instance id="154" name="1" op="137" expanded="false"/>
+                <instance id="155" name="1" op="163" expanded="false"/>
+                <fork id="156" name="1" kind="strong">
+                  <transition id="157" dest="158"/>
+                </fork>
+              </state>
+              <state id="158" name="Standby" initial="false" final="false" default="false">
+                <fork id="159" name="1" kind="strong">
+                  <transition id="160" dest="153"/>
+                </fork>
+              </state>
+            </automaton>
+            <fork id="161" name="1" kind="strong">
+              <transition id="162" dest="148"/>
+            </fork>
+          </state>
+        </automaton>
+      </operator>
+      <operator id="163" name="IfCases" imported="false" root="false" expanded="false">
+        <input id="164" name="Long" clock="false" type="13"/>
+        <input id="165" name="SteeringWheel" clock="false" type="2"/>
+        <input id="166" name="Brake" clock="false" type="228"/>
+        <output id="167" name="BrakePercent" clock="false" type="228"/>
+        <block id="168" name="IfBlock1" type="2">
+          <branch id="169" name="else">
+            <branch id="170" name="else">
+              <branch id="171" name="else">
+                <branch id="172" name="else"/>
+                <branch id="173" name="then"/>
+              </branch>
+              <branch id="174" name="then"/>
+            </branch>
+            <branch id="175" name="then"/>
+          </branch>
+          <branch id="176" name="then"/>
+        </block>
+      </operator>
+    </package>
+    <package id="177" name="digital"/>
+    <package id="178" name="truthtables">
+      <enum id="179" name="TruthTableValues">
+        <value id="180" name="T" default="false"/>
+        <value id="181" name="F" default="false"/>
+        <value id="182" name="X" default="false"/>
+      </enum>
+    </package>
+    <package id="183" name="linear">
+      <operator id="184" name="Gain" imported="false" root="false" expanded="true"/>
+      <mono id="185" src="184">
+        <typeVar id="186" name="T" type="13"/>
+      </mono>
+    </package>
+    <package id="187" name="filters"/>
+    <package id="188" name="vect"/>
+    <package id="189" name="math"/>
+    <package id="190" name="mathext">
+      <package id="191" name="mathextimpl">
+        <operator id="192" name="ExpR64" imported="true" root="false" expanded="false" specialize="195">
+          <input id="193" name="i" clock="false" type="13"/>
+          <output id="194" name="o" clock="false" type="13"/>
+        </operator>
+      </package>
+      <operator id="195" name="ExpR" imported="true" root="false" expanded="false"/>
+    </package>
+    <package id="196" name="pwlinear">
+      <operator id="197" name="LimiterUnSymmetrical" imported="false" root="false" expanded="true"/>
+      <mono id="198" src="197">
+        <typeVar id="199" name="T" type="13"/>
+      </mono>
+    </package>
+    <package id="200" name="lut"/>
+    <package id="201" name="verif"/>
+    <package id="202" name="Car">
+      <constant id="203" name="Iengine" imported="false" type="13"/>
+      <constant id="204" name="KBRAKE" imported="false" type="13"/>
+      <constant id="205" name="KTRANSM" imported="false" type="1"/>
+      <constant id="206" name="MASS" imported="false" type="13"/>
+      <constant id="207" name="TCYCLE" imported="false" type="13"/>
+      <constant id="208" name="Tengine" imported="false" type="13"/>
+      <constant id="209" name="TorqMax" imported="false" type="13"/>
+      <constant id="210" name="VehicleDynamic" imported="false" type="13"/>
+      <operator id="211" name="Body" imported="false" root="false" expanded="false">
+        <input id="212" name="Torq" clock="false" type="231"/>
+        <input id="213" name="Brake" clock="false" type="230"/>
+        <output id="214" name="VehicleSpeed" clock="false" type="230"/>
+        <pre id="215" name="15"/>
+        <arrow id="216" name="14"/>
+      </operator>
+      <operator id="217" name="PowerTrainStatic" imported="false" root="false" expanded="false">
+        <input id="218" name="Throttle" clock="false" type="230"/>
+        <output id="219" name="Torq" clock="false" type="231"/>
+        <instance id="220" name="8" op="192" expanded="false"/>
+      </operator>
+      <operator id="221" name="CarModel" imported="false" root="false" expanded="false">
+        <input id="222" name="Throttle" clock="false" type="228"/>
+        <input id="223" name="Brake" clock="false" type="228"/>
+        <output id="224" name="VehicleSpeed" clock="false" type="230"/>
+        <instance id="225" name="1" op="217" expanded="false"/>
+        <instance id="226" name="0" op="211" expanded="false"/>
+      </operator>
+    </package>
+    <package id="227" name="CarType">
+      <type id="228" name="tPercent" imported="false" type="13"/>
+      <type id="229" name="tRpm" imported="false" type="13"/>
+      <type id="230" name="tSpeed" imported="false" type="13"/>
+      <type id="231" name="tTorq" imported="false" type="13"/>
+    </package>
+  </model>
+  <generated>
+    <c>
+      <file id="232" name="SystemSimul_System.h">
+        <function id="233" name="SystemSimul_init_System">
+          <parameter id="234" name="outC" type="240" pointer="true"/>
+        </function>
+        <function id="235" name="SystemSimul_reset_System">
+          <parameter id="236" name="outC" type="240" pointer="true"/>
+        </function>
+        <function id="237" name="SystemSimul_System">
+          <parameter id="238" name="inC" type="248" pointer="true"/>
+          <parameter id="239" name="outC" type="240" pointer="true"/>
+        </function>
+        <struct id="240" name="outC_SystemSimul_System">
+          <field id="241" name="CruiseSpeed" type="379" pointer="false"/>
+          <field id="242" name="CruiseState" type="421" pointer="false"/>
+          <field id="243" name="CarSpeed" type="379" pointer="false"/>
+          <field id="244" name="_L19" type="379" pointer="false"/>
+          <field id="245" name="Context_CarModel_1" type="354" pointer="false"/>
+          <field id="246" name="Context_AutonomousEmergencyBrake_1" type="273" pointer="false"/>
+          <field id="247" name="Context_CruiseControl_1" type="302" pointer="false"/>
+        </struct>
+        <struct id="248" name="inC_SystemSimul_System">
+          <field id="249" name="On" type="464" pointer="false"/>
+          <field id="250" name="Off" type="464" pointer="false"/>
+          <field id="251" name="Resume" type="464" pointer="false"/>
+          <field id="252" name="Set" type="464" pointer="false"/>
+          <field id="253" name="QuickAccel" type="464" pointer="false"/>
+          <field id="254" name="QuickDecel" type="464" pointer="false"/>
+          <field id="255" name="Accel" type="380" pointer="false"/>
+          <field id="256" name="Brake" type="380" pointer="false"/>
+          <field id="257" name="OnEmergencyBrake" type="464" pointer="false"/>
+          <field id="258" name="OffEmergencyBrake" type="464" pointer="false"/>
+          <field id="259" name="SterringWheel" type="464" pointer="false"/>
+          <field id="260" name="Time" type="462" pointer="false"/>
+        </struct>
+      </file>
+      <file id="261" name="AutonomousEmergencyBrake_AutonomousEmergencyBrake.h">
+        <function id="262" name="AutonomousEmergencyBrake_init_AutonomousEmergencyBrake">
+          <parameter id="263" name="outC" type="273" pointer="true"/>
+        </function>
+        <function id="264" name="AutonomousEmergencyBrake_reset_AutonomousEmergencyBrake">
+          <parameter id="265" name="outC" type="273" pointer="true"/>
+        </function>
+        <function id="266" name="AutonomousEmergencyBrake_AutonomousEmergencyBrake">
+          <parameter id="267" name="On" type="464" pointer="false"/>
+          <parameter id="268" name="Off" type="464" pointer="false"/>
+          <parameter id="269" name="SteeringWheel" type="464" pointer="false"/>
+          <parameter id="270" name="Time" type="462" pointer="false"/>
+          <parameter id="271" name="Brake" type="382" pointer="false"/>
+          <parameter id="272" name="outC" type="273" pointer="true"/>
+        </function>
+        <struct id="273" name="outC_AutonomousEmergencyBrake_AutonomousEmergencyBrake">
+          <field id="274" name="BrakePercent" type="382" pointer="false"/>
+          <field id="275" name="init" type="464" pointer="false"/>
+          <field id="276" name="SM2_state_nxt_Enabled_SM1" type="386" pointer="false"/>
+          <field id="277" name="SM1_state_nxt" type="393" pointer="false"/>
+        </struct>
+      </file>
+      <file id="278" name="IfCases_AutonomousEmergencyBrake.h">
+        <function id="279" name="IfCases_AutonomousEmergencyBrake" returnType="382">
+          <parameter id="280" name="Long" type="462" pointer="false"/>
+          <parameter id="281" name="SteeringWheel" type="464" pointer="false"/>
+          <parameter id="282" name="Brake" type="382" pointer="false"/>
+        </function>
+      </file>
+      <file id="283" name="ArduinoCalculation_AutonomousEmergencyBrake.h">
+        <function id="284" name="ArduinoCalculation_AutonomousEmergencyBrake" returnType="462">
+          <parameter id="285" name="Time" type="462" pointer="false"/>
+        </function>
+      </file>
+      <file id="286" name="CruiseControl_CruiseControl.h">
+        <function id="287" name="CruiseControl_init_CruiseControl">
+          <parameter id="288" name="outC" type="302" pointer="true"/>
+        </function>
+        <function id="289" name="CruiseControl_reset_CruiseControl">
+          <parameter id="290" name="outC" type="302" pointer="true"/>
+        </function>
+        <function id="291" name="CruiseControl_CruiseControl">
+          <parameter id="292" name="On" type="464" pointer="false"/>
+          <parameter id="293" name="Off" type="464" pointer="false"/>
+          <parameter id="294" name="Resume" type="464" pointer="false"/>
+          <parameter id="295" name="Set" type="464" pointer="false"/>
+          <parameter id="296" name="QuickAccel" type="464" pointer="false"/>
+          <parameter id="297" name="QuickDecel" type="464" pointer="false"/>
+          <parameter id="298" name="Accel" type="382" pointer="false"/>
+          <parameter id="299" name="Brake" type="382" pointer="false"/>
+          <parameter id="300" name="Speed" type="381" pointer="false"/>
+          <parameter id="301" name="outC" type="302" pointer="true"/>
+        </function>
+        <struct id="302" name="outC_CruiseControl_CruiseControl">
+          <field id="303" name="CruiseSpeed" type="379" pointer="false"/>
+          <field id="304" name="ThrottleCmd" type="382" pointer="false"/>
+          <field id="305" name="CruiseState" type="421" pointer="false"/>
+          <field id="306" name="init" type="464" pointer="false"/>
+          <field id="307" name="init1" type="464" pointer="false"/>
+          <field id="308" name="SM2_state_nxt_Enabled_SM1" type="407" pointer="false"/>
+          <field id="309" name="SM3_state_nxt_Active_SM2_Enabled_SM1" type="400" pointer="false"/>
+          <field id="310" name="SM1_state_nxt" type="414" pointer="false"/>
+          <field id="311" name="Context_CruiseRegulation_3" type="336" pointer="false"/>
+          <field id="312" name="Context_CruiseSpeedMgt_1" type="324" pointer="false"/>
+        </struct>
+      </file>
+      <file id="313" name="CruiseSpeedMgt_CruiseControl.h">
+        <function id="314" name="CruiseSpeedMgt_init_CruiseControl">
+          <parameter id="315" name="outC" type="324" pointer="true"/>
+        </function>
+        <function id="316" name="CruiseSpeedMgt_reset_CruiseControl">
+          <parameter id="317" name="outC" type="324" pointer="true"/>
+        </function>
+        <function id="318" name="CruiseSpeedMgt_CruiseControl">
+          <parameter id="319" name="Set" type="464" pointer="false"/>
+          <parameter id="320" name="QuickAccel" type="464" pointer="false"/>
+          <parameter id="321" name="QuickDecel" type="464" pointer="false"/>
+          <parameter id="322" name="Speed" type="381" pointer="false"/>
+          <parameter id="323" name="outC" type="324" pointer="true"/>
+        </function>
+        <struct id="324" name="outC_CruiseSpeedMgt_CruiseControl">
+          <field id="325" name="CruiseSpeed" type="379" pointer="false"/>
+          <field id="326" name="init" type="464" pointer="false"/>
+        </struct>
+      </file>
+      <file id="327" name="CruiseRegulation_CruiseControl.h">
+        <function id="328" name="CruiseRegulation_init_CruiseControl">
+          <parameter id="329" name="outC" type="336" pointer="true"/>
+        </function>
+        <function id="330" name="CruiseRegulation_reset_CruiseControl">
+          <parameter id="331" name="outC" type="336" pointer="true"/>
+        </function>
+        <function id="332" name="CruiseRegulation_CruiseControl">
+          <parameter id="333" name="CruiseSpeed" type="379" pointer="false"/>
+          <parameter id="334" name="VehiculeSpeed" type="379" pointer="false"/>
+          <parameter id="335" name="outC" type="336" pointer="true"/>
+        </function>
+        <struct id="336" name="outC_CruiseRegulation_CruiseControl">
+          <field id="337" name="Throttle" type="380" pointer="false"/>
+          <field id="338" name="_L10" type="462" pointer="false"/>
+          <field id="339" name="_L14" type="464" pointer="false"/>
+        </struct>
+      </file>
+      <file id="340" name="SaturateThrottle_CruiseControl.h">
+        <function id="341" name="SaturateThrottle_CruiseControl">
+          <parameter id="342" name="ThrottleIn" type="380" pointer="false"/>
+          <parameter id="343" name="ThrottleOut" type="380" pointer="true"/>
+          <parameter id="344" name="Saturate" type="464" pointer="true"/>
+        </function>
+      </file>
+      <file id="345" name="CarModel_Car.h">
+        <function id="346" name="CarModel_init_Car">
+          <parameter id="347" name="outC" type="354" pointer="true"/>
+        </function>
+        <function id="348" name="CarModel_reset_Car">
+          <parameter id="349" name="outC" type="354" pointer="true"/>
+        </function>
+        <function id="350" name="CarModel_Car">
+          <parameter id="351" name="Throttle" type="382" pointer="false"/>
+          <parameter id="352" name="Brake" type="382" pointer="false"/>
+          <parameter id="353" name="outC" type="354" pointer="true"/>
+        </function>
+        <struct id="354" name="outC_CarModel_Car">
+          <field id="355" name="VehicleSpeed" type="381" pointer="false"/>
+          <field id="356" name="Context_Body_0" type="366" pointer="false"/>
+        </struct>
+      </file>
+      <file id="357" name="Body_Car.h">
+        <function id="358" name="Body_init_Car">
+          <parameter id="359" name="outC" type="366" pointer="true"/>
+        </function>
+        <function id="360" name="Body_reset_Car">
+          <parameter id="361" name="outC" type="366" pointer="true"/>
+        </function>
+        <function id="362" name="Body_Car">
+          <parameter id="363" name="Torq" type="383" pointer="false"/>
+          <parameter id="364" name="Brake" type="381" pointer="false"/>
+          <parameter id="365" name="outC" type="366" pointer="true"/>
+        </function>
+        <struct id="366" name="outC_Body_Car">
+          <field id="367" name="VehicleSpeed" type="381" pointer="false"/>
+          <field id="368" name="init" type="464" pointer="false"/>
+        </struct>
+      </file>
+      <file id="369" name="PowerTrainStatic_Car.h">
+        <function id="370" name="PowerTrainStatic_Car" returnType="383">
+          <parameter id="371" name="Throttle" type="381" pointer="false"/>
+        </function>
+      </file>
+      <file id="372" name="kcg_types.h">
+        <ifdef id="373" name="kcg_use_array_float64_5">
+          <function id="374" name="kcg_comp_array_float64_5" returnType="464">
+            <parameter id="375" name="kcg_c1" type="378" pointer="true"/>
+            <parameter id="376" name="kcg_c2" type="378" pointer="true"/>
+          </function>
+        </ifdef>
+        <macro id="377" name="kcg_copy_array_float64_5"/>
+        <array id="378" name="array_float64_5" baseType="462" size="5"/>
+        <typedef id="379" name="tSpeed_Defs" aliasType="462"/>
+        <typedef id="380" name="tPercent_Defs" aliasType="462"/>
+        <typedef id="381" name="tSpeed_CarType" aliasType="462"/>
+        <typedef id="382" name="tPercent_CarType" aliasType="462"/>
+        <typedef id="383" name="tTorq_CarType" aliasType="462"/>
+        <typedef id="384" name="tRpm_Defs" aliasType="462"/>
+        <typedef id="385" name="tRpm_CarType" aliasType="462"/>
+        <enum id="386" name="SSM_ST_SM2_Enabled_SM1" tagName="kcg_tag_SSM_ST_SM2_Enabled_SM1">
+          <value id="387" name="_8_SSM_st_Active_SM2_Enabled_SM1"/>
+          <value id="388" name="SSM_st_Standby_SM2_Enabled_SM1"/>
+        </enum>
+        <enum id="389" name="SSM_TR_SM2_Enabled_SM1" tagName="kcg_tag_SSM_TR_SM2_Enabled_SM1">
+          <value id="390" name="SSM_TR_no_trans_SM2_Enabled_SM1"/>
+          <value id="391" name="SSM_TR_Active_Standby_1_Active_SM2_Enabled_SM1"/>
+          <value id="392" name="SSM_TR_Standby_Active_1_Standby_SM2_Enabled_SM1"/>
+        </enum>
+        <enum id="393" name="SSM_ST_SM1" tagName="kcg_tag_SSM_ST_SM1">
+          <value id="394" name="_6_SSM_st_Off_SM1"/>
+          <value id="395" name="_7_SSM_st_Enabled_SM1"/>
+        </enum>
+        <enum id="396" name="SSM_TR_SM1" tagName="kcg_tag_SSM_TR_SM1">
+          <value id="397" name="SSM_TR_no_trans_SM1"/>
+          <value id="398" name="SSM_TR_Off_Enabled_1_Off_SM1"/>
+          <value id="399" name="SSM_TR_Enabled_Off_1_Enabled_SM1"/>
+        </enum>
+        <enum id="400" name="SSM_ST_SM3_Active_SM2_Enabled_SM1" tagName="kcg_tag_SSM_ST_SM3_Active_SM2_Enabled_SM1">
+          <value id="401" name="SSM_st_On_SM3_Active_SM2_Enabled_SM1"/>
+          <value id="402" name="SSM_st_StandBy_SM3_Active_SM2_Enabled_SM1"/>
+        </enum>
+        <enum id="403" name="SSM_TR_SM3_Active_SM2_Enabled_SM1" tagName="kcg_tag_SSM_TR_SM3_Active_SM2_Enabled_SM1">
+          <value id="404" name="SSM_TR_no_trans_SM3_Active_SM2_Enabled_SM1"/>
+          <value id="405" name="SSM_TR_On_StandBy_1_On_SM3_Active_SM2_Enabled_SM1"/>
+          <value id="406" name="SSM_TR_StandBy_On_1_StandBy_SM3_Active_SM2_Enabled_SM1"/>
+        </enum>
+        <enum id="407" name="_2_SSM_ST_SM2_Enabled_SM1" tagName="kcg_tag__2_SSM_ST_SM2_Enabled_SM1">
+          <value id="408" name="SSM_st_Active_SM2_Enabled_SM1"/>
+          <value id="409" name="SSM_st_Interrupt_SM2_Enabled_SM1"/>
+        </enum>
+        <enum id="410" name="_3_SSM_TR_SM2_Enabled_SM1" tagName="kcg_tag__3_SSM_TR_SM2_Enabled_SM1">
+          <value id="411" name="_9_SSM_TR_no_trans_SM2_Enabled_SM1"/>
+          <value id="412" name="SSM_TR_Active_Interrupt_1_Active_SM2_Enabled_SM1"/>
+          <value id="413" name="SSM_TR_Interrupt_Active_1_Interrupt_SM2_Enabled_SM1"/>
+        </enum>
+        <enum id="414" name="_4_SSM_ST_SM1" tagName="kcg_tag__4_SSM_ST_SM1">
+          <value id="415" name="SSM_st_Off_SM1"/>
+          <value id="416" name="SSM_st_Enabled_SM1"/>
+        </enum>
+        <enum id="417" name="_5_SSM_TR_SM1" tagName="kcg_tag__5_SSM_TR_SM1">
+          <value id="418" name="_10_SSM_TR_no_trans_SM1"/>
+          <value id="419" name="_11_SSM_TR_Off_Enabled_1_Off_SM1"/>
+          <value id="420" name="_12_SSM_TR_Enabled_Off_1_Enabled_SM1"/>
+        </enum>
+        <enum id="421" name="tCruiseState_Defs" tagName="kcg_tag_tCruiseState_Defs">
+          <value id="422" name="OFF_Defs"/>
+          <value id="423" name="INT_Defs"/>
+          <value id="424" name="STDBY_Defs"/>
+          <value id="425" name="ON_Defs"/>
+        </enum>
+        <enum id="426" name="TruthTableValues_truthtables" tagName="kcg_tag_TruthTableValues_truthtables">
+          <value id="427" name="T_truthtables"/>
+          <value id="428" name="F_truthtables"/>
+          <value id="429" name="X_truthtables"/>
+        </enum>
+        <macro id="430" name="kcg_assign_array"/>
+        <macro id="431" name="kcg_assign_struct"/>
+        <macro id="432" name="kcg_lnot_uint8"/>
+        <macro id="433" name="kcg_lnot_uint16"/>
+        <macro id="434" name="kcg_lnot_uint32"/>
+        <macro id="435" name="kcg_lnot_uint64"/>
+        <macro id="436" name="kcg_lsl_uint8"/>
+        <macro id="437" name="kcg_lsl_uint16"/>
+        <macro id="438" name="kcg_lsl_uint32"/>
+        <macro id="439" name="kcg_lsl_uint64"/>
+        <macro id="440" name="kcg_true"/>
+        <macro id="441" name="kcg_false"/>
+        <macro id="442" name="kcg_lit_int8"/>
+        <macro id="443" name="kcg_lit_int16"/>
+        <macro id="444" name="kcg_lit_int32"/>
+        <macro id="445" name="kcg_lit_int64"/>
+        <macro id="446" name="kcg_lit_uint8"/>
+        <macro id="447" name="kcg_lit_uint16"/>
+        <macro id="448" name="kcg_lit_uint32"/>
+        <macro id="449" name="kcg_lit_uint64"/>
+        <macro id="450" name="kcg_lit_size"/>
+        <macro id="451" name="kcg_lit_float64"/>
+        <macro id="452" name="kcg_lit_float32"/>
+        <predefType id="453" name="kcg_int8"/>
+        <predefType id="454" name="kcg_int16"/>
+        <predefType id="455" name="kcg_int32"/>
+        <predefType id="456" name="kcg_int64"/>
+        <predefType id="457" name="kcg_uint8"/>
+        <predefType id="458" name="kcg_uint16"/>
+        <predefType id="459" name="kcg_uint32"/>
+        <predefType id="460" name="kcg_uint64"/>
+        <predefType id="461" name="kcg_size"/>
+        <predefType id="462" name="kcg_float64"/>
+        <predefType id="463" name="kcg_float32"/>
+        <predefType id="464" name="kcg_bool"/>
+        <predefType id="465" name="kcg_char"/>
+        <macro id="466" name="KCG_MAPW_CPY"/>
+      </file>
+      <file id="467" name="kcg_consts.h">
+        <macro id="468" name="ZeroSpeed_Defs" type="379"/>
+        <macro id="469" name="SpeedMin_Defs" type="379"/>
+        <macro id="470" name="SpeedMax_Defs" type="379"/>
+        <macro id="471" name="PedalsMin_Defs" type="380"/>
+        <macro id="472" name="SpeedInc_Defs" type="379"/>
+        <macro id="473" name="Kp_Defs" type="462"/>
+        <macro id="474" name="Ki_Defs" type="462"/>
+        <macro id="475" name="ZeroPercent_Defs" type="380"/>
+        <macro id="476" name="RegulThrottleMax_Defs" type="380"/>
+        <macro id="477" name="SensorConst_Defs" type="462"/>
+        <macro id="478" name="BrakeConst_Defs" type="382"/>
+        <macro id="479" name="SecondBrakeConst_Defs" type="382"/>
+        <macro id="480" name="KBRAKE_Car" type="462"/>
+        <macro id="481" name="MASS_Car" type="462"/>
+        <macro id="482" name="TCYCLE_Car" type="462"/>
+        <macro id="483" name="VehicleDynamic_Car" type="462"/>
+        <macro id="484" name="Iengine_Car" type="462"/>
+        <macro id="485" name="Tengine_Car" type="462"/>
+        <macro id="486" name="TorqMax_Car" type="462"/>
+        <constant id="487" name="KTRANSM_Car" type="378" pointer="false"/>
+      </file>
+      <file id="488" name="kcg_sensors.h"/>
+      <file id="489" name="kcg_imported_functions.h">
+        <function id="490" name="ExpR64_mathext_mathextimpl" returnType="462">
+          <parameter id="491" name="i" type="462" pointer="false"/>
+        </function>
+      </file>
+    </c>
+    <map srcId="462" dstId="451" role="wrapped-lit"/>
+    <map srcId="463" dstId="452" role="wrapped-lit"/>
+    <map srcId="461" dstId="450" role="wrapped-lit"/>
+    <map srcId="460" dstId="449" role="wrapped-lit"/>
+    <map srcId="460" dstId="435" role="wrapped-lnot"/>
+    <map srcId="460" dstId="439" role="wrapped-lsl"/>
+    <map srcId="459" dstId="448" role="wrapped-lit"/>
+    <map srcId="459" dstId="434" role="wrapped-lnot"/>
+    <map srcId="459" dstId="438" role="wrapped-lsl"/>
+    <map srcId="458" dstId="447" role="wrapped-lit"/>
+    <map srcId="458" dstId="433" role="wrapped-lnot"/>
+    <map srcId="458" dstId="437" role="wrapped-lsl"/>
+    <map srcId="457" dstId="446" role="wrapped-lit"/>
+    <map srcId="457" dstId="432" role="wrapped-lnot"/>
+    <map srcId="457" dstId="436" role="wrapped-lsl"/>
+    <map srcId="456" dstId="445" role="wrapped-lit"/>
+    <map srcId="455" dstId="444" role="wrapped-lit"/>
+    <map srcId="454" dstId="443" role="wrapped-lit"/>
+    <map srcId="453" dstId="442" role="wrapped-lit"/>
+    <map srcId="378" dstId="373" role="type-use"/>
+    <map srcId="378" dstId="374" role="type-comparison"/>
+    <map srcId="378" dstId="377" role="type-copy"/>
+  </generated>
+  <map modelId="182" generatedId="429"/>
+  <map modelId="181" generatedId="428"/>
+  <map modelId="180" generatedId="427"/>
+  <map modelId="77" generatedId="420"/>
+  <map modelId="58" generatedId="419"/>
+  <map modelId="55" generatedId="418" role="autom-no-trans-enum"/>
+  <map modelId="74" generatedId="413"/>
+  <map modelId="71" generatedId="412"/>
+  <map modelId="60" generatedId="411" role="autom-no-trans-enum"/>
+  <map modelId="69" generatedId="406"/>
+  <map modelId="66" generatedId="405"/>
+  <map modelId="62" generatedId="404" role="autom-no-trans-enum"/>
+  <map modelId="162" generatedId="399"/>
+  <map modelId="150" generatedId="398"/>
+  <map modelId="147" generatedId="397" role="autom-no-trans-enum"/>
+  <map modelId="160" generatedId="392"/>
+  <map modelId="157" generatedId="391"/>
+  <map modelId="152" generatedId="390" role="autom-no-trans-enum"/>
+  <map modelId="158" generatedId="388"/>
+  <map modelId="153" generatedId="387"/>
+  <map modelId="151" generatedId="395"/>
+  <map modelId="148" generatedId="394"/>
+  <map modelId="30" generatedId="422"/>
+  <map modelId="33" generatedId="425"/>
+  <map modelId="32" generatedId="424"/>
+  <map modelId="31" generatedId="423"/>
+  <map modelId="67" generatedId="402"/>
+  <map modelId="63" generatedId="401"/>
+  <map modelId="72" generatedId="409"/>
+  <map modelId="61" generatedId="408"/>
+  <map modelId="59" generatedId="416"/>
+  <map modelId="56" generatedId="415"/>
+  <map modelId="116" generatedId="234" role="context-parameter"/>
+  <map modelId="116" generatedId="233" role="init-method"/>
+  <map modelId="116" generatedId="236" role="context-parameter"/>
+  <map modelId="116" generatedId="235" role="reset-method"/>
+  <map modelId="116" generatedId="238" role="input-struct-parameter"/>
+  <map modelId="128" generatedId="260"/>
+  <map modelId="127" generatedId="259"/>
+  <map modelId="126" generatedId="258"/>
+  <map modelId="125" generatedId="257"/>
+  <map modelId="124" generatedId="256"/>
+  <map modelId="123" generatedId="255"/>
+  <map modelId="122" generatedId="254"/>
+  <map modelId="121" generatedId="253"/>
+  <map modelId="120" generatedId="252"/>
+  <map modelId="119" generatedId="251"/>
+  <map modelId="118" generatedId="250"/>
+  <map modelId="117" generatedId="249"/>
+  <map modelId="116" generatedId="248" role="input-struct-type"/>
+  <map modelId="116" generatedId="239" role="context-parameter"/>
+  <map modelId="134" generatedId="247"/>
+  <map modelId="135" generatedId="246"/>
+  <map modelId="132" generatedId="245"/>
+  <map modelId="133" generatedId="244" role="memory"/>
+  <map modelId="131" generatedId="243"/>
+  <map modelId="130" generatedId="242"/>
+  <map modelId="129" generatedId="241"/>
+  <map modelId="116" generatedId="240" role="context-type"/>
+  <map modelId="116" generatedId="232" role="interface-file"/>
+  <map modelId="116" generatedId="237" role="cycle-method"/>
+  <map modelId="140" generatedId="263" role="context-parameter"/>
+  <map modelId="140" generatedId="262" role="init-method"/>
+  <map modelId="140" generatedId="265" role="context-parameter"/>
+  <map modelId="140" generatedId="264" role="reset-method"/>
+  <map modelId="145" generatedId="271"/>
+  <map modelId="144" generatedId="270"/>
+  <map modelId="143" generatedId="269"/>
+  <map modelId="142" generatedId="268"/>
+  <map modelId="141" generatedId="267"/>
+  <map modelId="140" generatedId="272" role="context-parameter"/>
+  <map modelId="147" generatedId="277" role="autom-next-state"/>
+  <map modelId="152" generatedId="276" role="autom-next-state"/>
+  <map modelId="152" generatedId="275" role="init"/>
+  <map modelId="146" generatedId="274"/>
+  <map modelId="140" generatedId="273" role="context-type"/>
+  <map modelId="140" generatedId="261" role="interface-file"/>
+  <map modelId="140" generatedId="266" role="cycle-method"/>
+  <map modelId="166" generatedId="282"/>
+  <map modelId="165" generatedId="281"/>
+  <map modelId="164" generatedId="280"/>
+  <map modelId="163" generatedId="278" role="interface-file"/>
+  <map modelId="163" generatedId="279" role="cycle-method"/>
+  <map modelId="138" generatedId="285"/>
+  <map modelId="137" generatedId="283" role="interface-file"/>
+  <map modelId="137" generatedId="284" role="cycle-method"/>
+  <map modelId="42" generatedId="288" role="context-parameter"/>
+  <map modelId="42" generatedId="287" role="init-method"/>
+  <map modelId="42" generatedId="290" role="context-parameter"/>
+  <map modelId="42" generatedId="289" role="reset-method"/>
+  <map modelId="51" generatedId="300"/>
+  <map modelId="50" generatedId="299"/>
+  <map modelId="49" generatedId="298"/>
+  <map modelId="48" generatedId="297"/>
+  <map modelId="47" generatedId="296"/>
+  <map modelId="46" generatedId="295"/>
+  <map modelId="45" generatedId="294"/>
+  <map modelId="44" generatedId="293"/>
+  <map modelId="43" generatedId="292"/>
+  <map modelId="42" generatedId="301" role="context-parameter"/>
+  <map modelId="75" generatedId="312"/>
+  <map modelId="64" generatedId="311"/>
+  <map modelId="55" generatedId="310" role="autom-next-state"/>
+  <map modelId="62" generatedId="309" role="autom-next-state"/>
+  <map modelId="60" generatedId="308" role="autom-next-state"/>
+  <map modelId="62" generatedId="307" role="init"/>
+  <map modelId="60" generatedId="306" role="init"/>
+  <map modelId="54" generatedId="305"/>
+  <map modelId="53" generatedId="304"/>
+  <map modelId="52" generatedId="303"/>
+  <map modelId="42" generatedId="302" role="context-type"/>
+  <map modelId="42" generatedId="286" role="interface-file"/>
+  <map modelId="42" generatedId="291" role="cycle-method"/>
+  <map modelId="78" generatedId="315" role="context-parameter"/>
+  <map modelId="78" generatedId="314" role="init-method"/>
+  <map modelId="78" generatedId="317" role="context-parameter"/>
+  <map modelId="78" generatedId="316" role="reset-method"/>
+  <map modelId="82" generatedId="322"/>
+  <map modelId="81" generatedId="321"/>
+  <map modelId="80" generatedId="320"/>
+  <map modelId="79" generatedId="319"/>
+  <map modelId="84" generatedId="319" role="condition"/>
+  <map modelId="78" generatedId="323" role="context-parameter"/>
+  <map modelId="83" generatedId="325"/>
+  <map modelId="88" generatedId="325" role="memory"/>
+  <map modelId="90" generatedId="325" role="memory"/>
+  <map modelId="92" generatedId="325" role="memory"/>
+  <map modelId="98" generatedId="325"/>
+  <map modelId="78" generatedId="324" role="context-type"/>
+  <map modelId="78" generatedId="313" role="interface-file"/>
+  <map modelId="78" generatedId="318" role="cycle-method"/>
+  <map modelId="100" generatedId="329" role="context-parameter"/>
+  <map modelId="100" generatedId="328" role="init-method"/>
+  <map modelId="100" generatedId="331" role="context-parameter"/>
+  <map modelId="100" generatedId="330" role="reset-method"/>
+  <map modelId="102" generatedId="334"/>
+  <map modelId="101" generatedId="333"/>
+  <map modelId="100" generatedId="335" role="context-parameter"/>
+  <map modelId="105" generatedId="339" role="memory"/>
+  <map modelId="106" generatedId="338" role="memory"/>
+  <map modelId="112" generatedId="338"/>
+  <map modelId="103" generatedId="337"/>
+  <map modelId="100" generatedId="336" role="context-type"/>
+  <map modelId="100" generatedId="327" role="interface-file"/>
+  <map modelId="100" generatedId="332" role="cycle-method"/>
+  <map modelId="41" generatedId="344"/>
+  <map modelId="40" generatedId="343"/>
+  <map modelId="39" generatedId="342"/>
+  <map modelId="38" generatedId="340" role="interface-file"/>
+  <map modelId="38" generatedId="341" role="cycle-method"/>
+  <map modelId="221" generatedId="347" role="context-parameter"/>
+  <map modelId="221" generatedId="346" role="init-method"/>
+  <map modelId="221" generatedId="349" role="context-parameter"/>
+  <map modelId="221" generatedId="348" role="reset-method"/>
+  <map modelId="223" generatedId="352"/>
+  <map modelId="222" generatedId="351"/>
+  <map modelId="221" generatedId="353" role="context-parameter"/>
+  <map modelId="226" generatedId="356"/>
+  <map modelId="224" generatedId="355"/>
+  <map modelId="221" generatedId="354" role="context-type"/>
+  <map modelId="221" generatedId="345" role="interface-file"/>
+  <map modelId="221" generatedId="350" role="cycle-method"/>
+  <map modelId="211" generatedId="359" role="context-parameter"/>
+  <map modelId="211" generatedId="358" role="init-method"/>
+  <map modelId="211" generatedId="361" role="context-parameter"/>
+  <map modelId="211" generatedId="360" role="reset-method"/>
+  <map modelId="213" generatedId="364"/>
+  <map modelId="212" generatedId="363"/>
+  <map modelId="211" generatedId="365" role="context-parameter"/>
+  <map modelId="216" generatedId="368" role="init"/>
+  <map modelId="214" generatedId="367"/>
+  <map modelId="215" generatedId="367" role="memory"/>
+  <map modelId="211" generatedId="366" role="context-type"/>
+  <map modelId="211" generatedId="357" role="interface-file"/>
+  <map modelId="211" generatedId="362" role="cycle-method"/>
+  <map modelId="218" generatedId="371"/>
+  <map modelId="217" generatedId="369" role="interface-file"/>
+  <map modelId="217" generatedId="370" role="cycle-method"/>
+  <map modelId="193" generatedId="491"/>
+  <map modelId="192" generatedId="490" role="cycle-method"/>
+  <map modelId="205" generatedId="487"/>
+  <map modelId="209" generatedId="486"/>
+  <map modelId="208" generatedId="485"/>
+  <map modelId="203" generatedId="484"/>
+  <map modelId="210" generatedId="483"/>
+  <map modelId="207" generatedId="482"/>
+  <map modelId="206" generatedId="481"/>
+  <map modelId="204" generatedId="480"/>
+  <map modelId="28" generatedId="479"/>
+  <map modelId="27" generatedId="478"/>
+  <map modelId="26" generatedId="477"/>
+  <map modelId="22" generatedId="476"/>
+  <map modelId="18" generatedId="475"/>
+  <map modelId="25" generatedId="474"/>
+  <map modelId="24" generatedId="473"/>
+  <map modelId="21" generatedId="472"/>
+  <map modelId="23" generatedId="471"/>
+  <map modelId="20" generatedId="470"/>
+  <map modelId="19" generatedId="469"/>
+  <map modelId="17" generatedId="468"/>
+  <map modelId="229" generatedId="385"/>
+  <map modelId="179" generatedId="426"/>
+  <map modelId="36" generatedId="384"/>
+  <map modelId="231" generatedId="383"/>
+  <map modelId="228" generatedId="382"/>
+  <map modelId="230" generatedId="381"/>
+  <map modelId="34" generatedId="380"/>
+  <map modelId="29" generatedId="421"/>
+  <map modelId="35" generatedId="379"/>
+  <map modelId="55" generatedId="417" role="autom-transitions-type"/>
+  <map modelId="55" generatedId="414" role="autom-states-type"/>
+  <map modelId="60" generatedId="410" role="autom-transitions-type"/>
+  <map modelId="60" generatedId="407" role="autom-states-type"/>
+  <map modelId="62" generatedId="403" role="autom-transitions-type"/>
+  <map modelId="62" generatedId="400" role="autom-states-type"/>
+  <map modelId="147" generatedId="396" role="autom-transitions-type"/>
+  <map modelId="147" generatedId="393" role="autom-states-type"/>
+  <map modelId="152" generatedId="389" role="autom-transitions-type"/>
+  <map modelId="152" generatedId="386" role="autom-states-type"/>
+  <map modelId="1" generatedId="378"/>
+  <map modelId="3" generatedId="465"/>
+  <map modelId="2" generatedId="464"/>
+  <map modelId="13" generatedId="462"/>
+  <map modelId="12" generatedId="463"/>
+  <map modelId="14" generatedId="461"/>
+  <map modelId="11" generatedId="460"/>
+  <map modelId="10" generatedId="459"/>
+  <map modelId="9" generatedId="458"/>
+  <map modelId="8" generatedId="457"/>
+  <map modelId="7" generatedId="456"/>
+  <map modelId="6" generatedId="455"/>
+  <map modelId="5" generatedId="454"/>
+  <map modelId="4" generatedId="453"/>
+</mapping>
+<!--$********** SCADE Suite KCG 32-bit 6.6.2 (build i4) **********
+** mapping.xml
+** Generation date: 2022-04-26T09:36:58
+*************************************************************$-->

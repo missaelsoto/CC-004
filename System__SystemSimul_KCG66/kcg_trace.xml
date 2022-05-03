@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+  <Model commandLine="" date="">
+    <Option name="use_types" value="#off#"/>
+    <Option name="imported_root_package" value="#off#"/>
+    <Option name="root_package" value="#off#"/>
+    <Option name="xml_basename" value="kcg_xml_filter_out.scade"/>
+    <Option name="state_vector" value="#off#"/>
+    <Option name="static" value="#off#"/>
+    <Option name="separate_io_all" value="#off#"/>
+    <Option name="no_separate_io" value="#off#"/>
+    <Option name="separate_io" value="#off#"/>
+    <Option name="warn_error" value="#off#"/>
+    <Option name="short_circuit" value="#off#"/>
+    <Option name="wrap_c_ops" value="#off#"/>
+    <Option name="input_file" value="C:/Users/missael/Documents/CINVESTAV/embedded critical software/Project/CruiseControl/Libraries/CarType/CarType.xscade"/>
+    <Option name="input_file" value="C:/Users/missael/Documents/CINVESTAV/embedded critical software/Project/CruiseControl/Libraries/Car/Car.xscade"/>
+    <Option name="input_file" value="C:/Program Files/ANSYS Inc/v221/SCADE/SCADE/libraries/SC65/libverif/libverif.xscade"/>
+    <Option name="input_file" value="C:/Program Files/ANSYS Inc/v221/SCADE/SCADE/libraries/SC65/libpwlinear/lut.xscade"/>
+    <Option name="input_file" value="C:/Program Files/ANSYS Inc/v221/SCADE/SCADE/libraries/SC65/libpwlinear/pwlinear.xscade"/>
+    <Option name="input_file" value="C:/Program Files/ANSYS Inc/v221/SCADE/SCADE/libraries/SC65/libmathext/mathext.xscade"/>
+    <Option name="input_file" value="C:/Program Files/ANSYS Inc/v221/SCADE/SCADE/libraries/SC65/libmath/math.xscade"/>
+    <Option name="input_file" value="C:/Program Files/ANSYS Inc/v221/SCADE/SCADE/libraries/SC65/libmath/vect.xscade"/>
+    <Option name="input_file" value="C:/Program Files/ANSYS Inc/v221/SCADE/SCADE/libraries/SC65/liblinear/filters.xscade"/>
+    <Option name="input_file" value="C:/Program Files/ANSYS Inc/v221/SCADE/SCADE/libraries/SC65/liblinear/linear.xscade"/>
+    <Option name="input_file" value="C:/Program Files/ANSYS Inc/v221/SCADE/SCADE/libraries/SC65/libdigital/TruthTables.xscade"/>
+    <Option name="input_file" value="C:/Program Files/ANSYS Inc/v221/SCADE/SCADE/libraries/SC65/libdigital/digital.xscade"/>
+    <Option name="input_file" value="C:/Users/missael/Documents/CINVESTAV/embedded critical software/Project/CC-003/Package5.xscade"/>
+    <Option name="input_file" value="C:/Users/missael/Documents/CINVESTAV/embedded critical software/Project/CC-003/System.xscade"/>
+    <Option name="input_file" value="C:/Users/missael/Documents/CINVESTAV/embedded critical software/Project/CC-003/CruiseControl.xscade"/>
+    <Option name="input_file" value="C:/Users/missael/Documents/CINVESTAV/embedded critical software/Project/CC-003/Defs.xscade"/>
+    <Option name="input_file" value="C:/Users/missael/Documents/CINVESTAV/embedded critical software/Project/CC-003/Proof.xscade"/>
+    <Option name="probes" value="#off#"/>
+    <Option name="debug" value="#off#"/>
+    <Option name="no_observe" value="#off#"/>
+    <Option name="observe" value="#off#"/>
+    <Option name="user_config" value="#off#"/>
+    <Option name="input_threshold" value="#off#"/>
+    <Option name="header" value="#off#"/>
+    <Option name="significance_length" value="31"/>
+    <Option name="name_length" value="200"/>
+    <Option name="globals_prefix" value="#off#"/>
+    <Option name="keep_asserts" value="#off#"/>
+    <Option name="global_root_context" value="#off#"/>
+    <Option name="expall" value="#off#"/>
+    <Option name="noexp" value="#off#"/>
+    <Option name="exp" value="#off#"/>
+    <Option name="target_dir" value="C:/Users/missael/Documents/CINVESTAV/embedded critical software/Project/CC-003/System__SystemSimul_KCG66"/>
+    <Option name="target" value="C"/>
+    <Option name="root" value="System::SystemSimul"/>
+    <Option name="auth" value="#off#"/>
+    <Package scadeName="Proof"/>
+    <Package scadeName="Defs">
+      <Constant macroDef="true" scadeName="ZeroSpeed" scadeType="Defs::tSpeed" targetName="ZeroSpeed_Defs" targetType="tSpeed_Defs"/>
+      <Constant macroDef="true" scadeName="ZeroPercent" scadeType="Defs::tPercent" targetName="ZeroPercent_Defs" targetType="tPercent_Defs"/>
+      <Constant macroDef="true" scadeName="SpeedMin" scadeType="Defs::tSpeed" targetName="SpeedMin_Defs" targetType="tSpeed_Defs"/>
+      <Constant macroDef="true" scadeName="SpeedMax" scadeType="Defs::tSpeed" targetName="SpeedMax_Defs" targetType="tSpeed_Defs"/>
+      <Constant macroDef="true" scadeName="SpeedInc" scadeType="Defs::tSpeed" targetName="SpeedInc_Defs" targetType="tSpeed_Defs"/>
+      <Constant macroDef="true" scadeName="RegulThrottleMax" scadeType="Defs::tPercent" targetName="RegulThrottleMax_Defs" targetType="tPercent_Defs"/>
+      <Constant macroDef="true" scadeName="PedalsMin" scadeType="Defs::tPercent" targetName="PedalsMin_Defs" targetType="tPercent_Defs"/>
+      <Constant macroDef="true" scadeName="Kp" scadeType="float64" targetName="Kp_Defs" targetType="kcg_float64"/>
+      <Constant macroDef="true" scadeName="Ki" scadeType="float64" targetName="Ki_Defs" targetType="kcg_float64"/>
+      <Constant macroDef="true" scadeName="SensorConst" scadeType="float64" targetName="SensorConst_Defs" targetType="kcg_float64"/>
+      <Constant macroDef="true" scadeName="BrakeConst" scadeType="CarType::tPercent" targetName="BrakeConst_Defs" targetType="tPercent_CarType"/>
+      <Constant macroDef="true" scadeName="SecondBrakeConst" scadeType="CarType::tPercent" targetName="SecondBrakeConst_Defs" targetType="tPercent_CarType"/>
+      <EnumType scadeName="tCruiseState" targetName="tCruiseState_Defs">
+        <EnumVal scadeName="OFF" targetName="OFF_Defs"/>
+        <EnumVal scadeName="INT" targetName="INT_Defs"/>
+        <EnumVal scadeName="STDBY" targetName="STDBY_Defs"/>
+        <EnumVal scadeName="ON" targetName="ON_Defs"/>
+      </EnumType>
+      <NamedType refType="kcg_float64" scadeName="tPercent" targetName="tPercent_Defs"/>
+      <NamedType refType="kcg_float64" scadeName="tSpeed" targetName="tSpeed_Defs"/>
+      <NamedType refType="kcg_float64" scadeName="tRpm" targetName="tRpm_Defs"/>
+    </Package>
+    <Package scadeName="CruiseControl">
+      <NoExpNode headerFile="SaturateThrottle_CruiseControl.h" scadeName="SaturateThrottle" targetCycleFct="SaturateThrottle_CruiseControl">
+        <Input scadeName="ThrottleIn" scadeType="Defs::tPercent" targetName="ThrottleIn" targetType="tPercent_Defs"/>
+        <Output scadeName="ThrottleOut" scadeType="Defs::tPercent" targetName="ThrottleOut" targetType="tPercent_Defs"/>
+        <Output scadeName="Saturate" scadeType="bool" targetName="Saturate" targetType="kcg_bool"/>
+      </NoExpNode>
+      <NoExpNode headerFile="CruiseControl_CruiseControl.h" scadeName="CruiseControl" targetCycleFct="CruiseControl_CruiseControl" targetInitFct="CruiseControl_reset_CruiseControl" targetInitializationFct="CruiseControl_init_CruiseControl">
+        <Input scadeName="On" scadeType="bool" targetName="On" targetType="kcg_bool"/>
+        <Input scadeName="Off" scadeType="bool" targetName="Off" targetType="kcg_bool"/>
+        <Input scadeName="Resume" scadeType="bool" targetName="Resume" targetType="kcg_bool"/>
+        <Input scadeName="Set" scadeType="bool" targetName="Set" targetType="kcg_bool"/>
+        <Input scadeName="QuickAccel" scadeType="bool" targetName="QuickAccel" targetType="kcg_bool"/>
+        <Input scadeName="QuickDecel" scadeType="bool" targetName="QuickDecel" targetType="kcg_bool"/>
+        <Input scadeName="Accel" scadeType="CarType::tPercent" targetName="Accel" targetType="tPercent_CarType"/>
+        <Input scadeName="Brake" scadeType="CarType::tPercent" targetName="Brake" targetType="tPercent_CarType"/>
+        <Input scadeName="Speed" scadeType="CarType::tSpeed" targetName="Speed" targetType="tSpeed_CarType"/>
+        <Output inCtx="true" scadeName="CruiseSpeed" scadeType="Defs::tSpeed" targetName="CruiseSpeed" targetType="tSpeed_Defs"/>
+        <Output inCtx="true" scadeName="ThrottleCmd" scadeType="CarType::tPercent" targetName="ThrottleCmd" targetType="tPercent_CarType"/>
+        <Output inCtx="true" scadeName="CruiseState" scadeType="Defs::tCruiseState" targetName="CruiseState" targetType="tCruiseState_Defs"/>
+        <Automaton scadeName="SM1" targetStatesType="_4_SSM_ST_SM1" targetTransitionsType="_5_SSM_TR_SM1">
+          <State scadeName="Off" targetName="SSM_st_Off_SM1">
+            <Fork priority="1">
+              <Condition/>
+              <Transition kind="strong" scadeDest="Enabled" targetName="_11_SSM_TR_Off_Enabled_1_Off_SM1"/>
+            </Fork>
+          </State>
+          <State scadeName="Enabled" targetName="SSM_st_Enabled_SM1">
+            <Automaton scadeName="SM2" targetStatesType="_2_SSM_ST_SM2_Enabled_SM1" targetTransitionsType="_3_SSM_TR_SM2_Enabled_SM1">
+              <State scadeName="Active" targetName="SSM_st_Active_SM2_Enabled_SM1">
+                <Automaton scadeName="SM3" targetStatesType="SSM_ST_SM3_Active_SM2_Enabled_SM1" targetTransitionsType="SSM_TR_SM3_Active_SM2_Enabled_SM1">
+                  <State scadeName="On" targetName="SSM_st_On_SM3_Active_SM2_Enabled_SM1">
+                    <NodeInstance instName="3" refName="CruiseRegulation_CruiseControl" scadeName="CruiseControl::CruiseRegulation">
+                      <OutCtxVar targetName="Context_CruiseRegulation_3"/>
+                    </NodeInstance>
+                    <Fork priority="1">
+                      <Condition/>
+                      <Transition kind="strong" scadeDest="StandBy" targetName="SSM_TR_On_StandBy_1_On_SM3_Active_SM2_Enabled_SM1"/>
+                    </Fork>
+                  </State>
+                  <State scadeName="StandBy" targetName="SSM_st_StandBy_SM3_Active_SM2_Enabled_SM1">
+                    <Fork priority="1">
+                      <Condition/>
+                      <Transition kind="strong" scadeDest="On" targetName="SSM_TR_StandBy_On_1_StandBy_SM3_Active_SM2_Enabled_SM1"/>
+                    </Fork>
+                  </State>
+                  <NextState inCtx="true" mem="true" targetName="SM3_state_nxt_Active_SM2_Enabled_SM1"/>
+                </Automaton>
+                <Fork priority="1">
+                  <Condition/>
+                  <Transition kind="strong" scadeDest="Interrupt" targetName="SSM_TR_Active_Interrupt_1_Active_SM2_Enabled_SM1"/>
+                </Fork>
+              </State>
+              <State scadeName="Interrupt" targetName="SSM_st_Interrupt_SM2_Enabled_SM1">
+                <Fork priority="1">
+                  <Condition/>
+                  <Transition kind="strong" scadeDest="Active" targetName="SSM_TR_Interrupt_Active_1_Interrupt_SM2_Enabled_SM1"/>
+                </Fork>
+              </State>
+              <NextState inCtx="true" mem="true" targetName="SM2_state_nxt_Enabled_SM1"/>
+            </Automaton>
+            <NodeInstance instName="1" refName="CruiseSpeedMgt_CruiseControl" scadeName="CruiseControl::CruiseSpeedMgt">
+              <OutCtxVar targetName="Context_CruiseSpeedMgt_1"/>
+            </NodeInstance>
+            <Fork priority="1">
+              <Condition/>
+              <Transition kind="strong" scadeDest="Off" targetName="_12_SSM_TR_Enabled_Off_1_Enabled_SM1"/>
+            </Fork>
+          </State>
+          <NextState inCtx="true" mem="true" targetName="SM1_state_nxt"/>
+        </Automaton>
+        <Init inCtx="true" targetName="init" targetType="kcg_bool"/>
+        <Init inCtx="true" targetName="init1" targetType="kcg_bool"/>
+        <Memory inCtx="true" targetName="SM2_state_nxt_Enabled_SM1" targetType="_2_SSM_ST_SM2_Enabled_SM1"/>
+        <Memory inCtx="true" targetName="SM3_state_nxt_Active_SM2_Enabled_SM1" targetType="SSM_ST_SM3_Active_SM2_Enabled_SM1"/>
+        <Memory inCtx="true" targetName="SM1_state_nxt" targetType="_4_SSM_ST_SM1"/>
+        <OutCtxType targetName="outC_CruiseControl_CruiseControl"/>
+      </NoExpNode>
+      <NoExpNode headerFile="CruiseSpeedMgt_CruiseControl.h" scadeName="CruiseSpeedMgt" targetCycleFct="CruiseSpeedMgt_CruiseControl" targetInitFct="CruiseSpeedMgt_reset_CruiseControl" targetInitializationFct="CruiseSpeedMgt_init_CruiseControl">
+        <Input scadeName="Set" scadeType="bool" targetName="Set" targetType="kcg_bool"/>
+        <Input scadeName="QuickAccel" scadeType="bool" targetName="QuickAccel" targetType="kcg_bool"/>
+        <Input scadeName="QuickDecel" scadeType="bool" targetName="QuickDecel" targetType="kcg_bool"/>
+        <Input scadeName="Speed" scadeType="CarType::tSpeed" targetName="Speed" targetType="tSpeed_CarType"/>
+        <Output inCtx="true" scadeName="CruiseSpeed" scadeType="Defs::tSpeed" targetName="CruiseSpeed" targetType="tSpeed_Defs"/>
+        <ActivateIf scadeName="IfBlock1">
+          <Condition targetName="Set"/>
+          <Else>
+            <Else>
+              <Else>
+                <Last/>
+              </Else>
+              <Then>
+                <Last/>
+              </Then>
+            </Else>
+            <Then>
+              <Last/>
+            </Then>
+          </Else>
+          <Then/>
+        </ActivateIf>
+        <NodeInlining instName="1" scadeName="pwlinear::LimiterUnSymmetrical">
+          <Output inCtx="true" scadeName="LUS_Output" scadeType="float64" targetName="CruiseSpeed" targetType="tSpeed_Defs"/>
+          <Assume scadeName="A1" targetName=""/>
+        </NodeInlining>
+        <Memory inCtx="true" targetName="CruiseSpeed" targetType="tSpeed_Defs"/>
+        <OutCtxType targetName="outC_CruiseSpeedMgt_CruiseControl"/>
+      </NoExpNode>
+      <NoExpNode headerFile="CruiseRegulation_CruiseControl.h" scadeName="CruiseRegulation" targetCycleFct="CruiseRegulation_CruiseControl" targetInitFct="CruiseRegulation_reset_CruiseControl" targetInitializationFct="CruiseRegulation_init_CruiseControl">
+        <Input scadeName="CruiseSpeed" scadeType="Defs::tSpeed" targetName="CruiseSpeed" targetType="tSpeed_Defs"/>
+        <Input scadeName="VehiculeSpeed" scadeType="Defs::tSpeed" targetName="VehiculeSpeed" targetType="tSpeed_Defs"/>
+        <Output inCtx="true" scadeName="Throttle" scadeType="Defs::tPercent" targetName="Throttle" targetType="tPercent_Defs"/>
+        <NodeInstance instName="1" refName="SaturateThrottle_CruiseControl" scadeName="CruiseControl::SaturateThrottle"/>
+        <FbyOp instName="1">
+          <Memory inCtx="true" targetName="_L14" targetType="kcg_bool"/>
+        </FbyOp>
+        <FbyOp instName="2">
+          <Memory inCtx="true" targetName="_L10" targetType="kcg_float64"/>
+        </FbyOp>
+        <NodeInlining instName="1" scadeName="linear::Gain"/>
+        <NodeInlining instName="2" scadeName="linear::Gain">
+          <Input inCtx="true" scadeName="G_Input" scadeType="float64" targetName="_L10" targetType="kcg_float64"/>
+        </NodeInlining>
+        <Memory inCtx="true" targetName="_L10" targetType="kcg_float64"/>
+        <Memory inCtx="true" targetName="_L14" targetType="kcg_bool"/>
+        <OutCtxType targetName="outC_CruiseRegulation_CruiseControl"/>
+      </NoExpNode>
+    </Package>
+    <Package scadeName="System">
+      <RootNode headerFile="SystemSimul_System.h" scadeName="SystemSimul" targetCycleFct="SystemSimul_System" targetInitFct="SystemSimul_reset_System" targetInitializationFct="SystemSimul_init_System">
+        <Input inCtx="true" scadeName="On" scadeType="bool" targetName="On" targetType="kcg_bool"/>
+        <Input inCtx="true" scadeName="Off" scadeType="bool" targetName="Off" targetType="kcg_bool"/>
+        <Input inCtx="true" scadeName="Resume" scadeType="bool" targetName="Resume" targetType="kcg_bool"/>
+        <Input inCtx="true" scadeName="Set" scadeType="bool" targetName="Set" targetType="kcg_bool"/>
+        <Input inCtx="true" scadeName="QuickAccel" scadeType="bool" targetName="QuickAccel" targetType="kcg_bool"/>
+        <Input inCtx="true" scadeName="QuickDecel" scadeType="bool" targetName="QuickDecel" targetType="kcg_bool"/>
+        <Input inCtx="true" scadeName="Accel" scadeType="Defs::tPercent" targetName="Accel" targetType="tPercent_Defs"/>
+        <Input inCtx="true" scadeName="Brake" scadeType="Defs::tPercent" targetName="Brake" targetType="tPercent_Defs"/>
+        <Input inCtx="true" scadeName="OnEmergencyBrake" scadeType="bool" targetName="OnEmergencyBrake" targetType="kcg_bool"/>
+        <Input inCtx="true" scadeName="OffEmergencyBrake" scadeType="bool" targetName="OffEmergencyBrake" targetType="kcg_bool"/>
+        <Input inCtx="true" scadeName="SterringWheel" scadeType="bool" targetName="SterringWheel" targetType="kcg_bool"/>
+        <Input inCtx="true" scadeName="Time" scadeType="float64" targetName="Time" targetType="kcg_float64"/>
+        <Output inCtx="true" scadeName="CruiseSpeed" scadeType="Defs::tSpeed" targetName="CruiseSpeed" targetType="tSpeed_Defs"/>
+        <Output inCtx="true" scadeName="CruiseState" scadeType="Defs::tCruiseState" targetName="CruiseState" targetType="tCruiseState_Defs"/>
+        <Output inCtx="true" scadeName="CarSpeed" scadeType="Defs::tSpeed" targetName="CarSpeed" targetType="tSpeed_Defs"/>
+        <NodeInstance instName="1" refName="CarModel_Car" scadeName="Car::CarModel">
+          <OutCtxVar targetName="Context_CarModel_1"/>
+        </NodeInstance>
+        <FbyOp instName="1">
+          <Memory inCtx="true" targetName="_L19" targetType="tSpeed_Defs"/>
+        </FbyOp>
+        <NodeInstance instName="1" refName="CruiseControl_CruiseControl" scadeName="CruiseControl::CruiseControl">
+          <OutCtxVar targetName="Context_CruiseControl_1"/>
+        </NodeInstance>
+        <NodeInstance instName="1" refName="AutonomousEmergencyBrake_AutonomousEmergencyBrake" scadeName="AutonomousEmergencyBrake::AutonomousEmergencyBrake">
+          <OutCtxVar targetName="Context_AutonomousEmergencyBrake_1"/>
+        </NodeInstance>
+        <Memory inCtx="true" targetName="_L19" targetType="tSpeed_Defs"/>
+        <OutCtxType targetName="outC_SystemSimul_System"/>
+        <InCtxType targetName="inC_SystemSimul_System"/>
+      </RootNode>
+    </Package>
+    <Package scadeName="AutonomousEmergencyBrake">
+      <NoExpNode headerFile="ArduinoCalculation_AutonomousEmergencyBrake.h" scadeName="ArduinoCalculation" targetCycleFct="ArduinoCalculation_AutonomousEmergencyBrake">
+        <Input scadeName="Time" scadeType="float64" targetName="Time" targetType="kcg_float64"/>
+        <Output scadeName="Long" scadeType="float64" targetName="Long" targetType="kcg_float64"/>
+      </NoExpNode>
+      <NoExpNode headerFile="AutonomousEmergencyBrake_AutonomousEmergencyBrake.h" scadeName="AutonomousEmergencyBrake" targetCycleFct="AutonomousEmergencyBrake_AutonomousEmergencyBrake" targetInitFct="AutonomousEmergencyBrake_reset_AutonomousEmergencyBrake" targetInitializationFct="AutonomousEmergencyBrake_init_AutonomousEmergencyBrake">
+        <Input scadeName="On" scadeType="bool" targetName="On" targetType="kcg_bool"/>
+        <Input scadeName="Off" scadeType="bool" targetName="Off" targetType="kcg_bool"/>
+        <Input scadeName="SteeringWheel" scadeType="bool" targetName="SteeringWheel" targetType="kcg_bool"/>
+        <Input scadeName="Time" scadeType="float64" targetName="Time" targetType="kcg_float64"/>
+        <Input scadeName="Brake" scadeType="CarType::tPercent" targetName="Brake" targetType="tPercent_CarType"/>
+        <Output inCtx="true" scadeName="BrakePercent" scadeType="CarType::tPercent" targetName="BrakePercent" targetType="tPercent_CarType"/>
+        <Automaton scadeName="SM1" targetStatesType="SSM_ST_SM1" targetTransitionsType="SSM_TR_SM1">
+          <State scadeName="Off" targetName="_6_SSM_st_Off_SM1">
+            <Fork priority="1">
+              <Condition/>
+              <Transition kind="strong" scadeDest="Enabled" targetName="SSM_TR_Off_Enabled_1_Off_SM1"/>
+            </Fork>
+          </State>
+          <State scadeName="Enabled" targetName="_7_SSM_st_Enabled_SM1">
+            <Automaton scadeName="SM2" targetStatesType="SSM_ST_SM2_Enabled_SM1" targetTransitionsType="SSM_TR_SM2_Enabled_SM1">
+              <State scadeName="Active" targetName="_8_SSM_st_Active_SM2_Enabled_SM1">
+                <NodeInstance instName="1" refName="ArduinoCalculation_AutonomousEmergencyBrake" scadeName="AutonomousEmergencyBrake::ArduinoCalculation"/>
+                <NodeInstance instName="1" refName="IfCases_AutonomousEmergencyBrake" scadeName="AutonomousEmergencyBrake::IfCases"/>
+                <Fork priority="1">
+                  <Condition/>
+                  <Transition kind="strong" scadeDest="Standby" targetName="SSM_TR_Active_Standby_1_Active_SM2_Enabled_SM1"/>
+                </Fork>
+              </State>
+              <State scadeName="Standby" targetName="SSM_st_Standby_SM2_Enabled_SM1">
+                <Fork priority="1">
+                  <Condition/>
+                  <Transition kind="strong" scadeDest="Active" targetName="SSM_TR_Standby_Active_1_Standby_SM2_Enabled_SM1"/>
+                </Fork>
+              </State>
+              <NextState inCtx="true" mem="true" targetName="SM2_state_nxt_Enabled_SM1"/>
+            </Automaton>
+            <Fork priority="1">
+              <Condition/>
+              <Transition kind="strong" scadeDest="Off" targetName="SSM_TR_Enabled_Off_1_Enabled_SM1"/>
+            </Fork>
+          </State>
+          <NextState inCtx="true" mem="true" targetName="SM1_state_nxt"/>
+        </Automaton>
+        <Init inCtx="true" targetName="init" targetType="kcg_bool"/>
+        <Memory inCtx="true" targetName="SM2_state_nxt_Enabled_SM1" targetType="SSM_ST_SM2_Enabled_SM1"/>
+        <Memory inCtx="true" targetName="SM1_state_nxt" targetType="SSM_ST_SM1"/>
+        <OutCtxType targetName="outC_AutonomousEmergencyBrake_AutonomousEmergencyBrake"/>
+      </NoExpNode>
+      <NoExpNode headerFile="IfCases_AutonomousEmergencyBrake.h" scadeName="IfCases" targetCycleFct="IfCases_AutonomousEmergencyBrake">
+        <Input scadeName="Long" scadeType="float64" targetName="Long" targetType="kcg_float64"/>
+        <Input scadeName="SteeringWheel" scadeType="bool" targetName="SteeringWheel" targetType="kcg_bool"/>
+        <Input scadeName="Brake" scadeType="CarType::tPercent" targetName="Brake" targetType="tPercent_CarType"/>
+        <Output scadeName="BrakePercent" scadeType="CarType::tPercent" targetName="BrakePercent" targetType="tPercent_CarType"/>
+        <ActivateIf scadeName="IfBlock1">
+          <Else>
+            <Else>
+              <Else>
+                <Else/>
+                <Then/>
+              </Else>
+              <Then/>
+            </Else>
+            <Then/>
+          </Else>
+          <Then/>
+        </ActivateIf>
+      </NoExpNode>
+    </Package>
+    <Package scadeName="digital"/>
+    <Package scadeName="truthtables">
+      <EnumType scadeName="TruthTableValues" targetName="TruthTableValues_truthtables">
+        <EnumVal scadeName="T" targetName="T_truthtables"/>
+        <EnumVal scadeName="F" targetName="F_truthtables"/>
+        <EnumVal scadeName="X" targetName="X_truthtables"/>
+      </EnumType>
+    </Package>
+    <Package scadeName="linear">
+      <ExpNode scadeName="Gain"/>
+    </Package>
+    <Package scadeName="filters"/>
+    <Package scadeName="vect"/>
+    <Package scadeName="math"/>
+    <Package scadeName="mathext">
+      <Package scadeName="mathextimpl">
+        <NoExpNode headerFile="kcg_imported_functions.h" imported="true" scadeName="ExpR64" targetCycleFct="ExpR64_mathext_mathextimpl">
+          <Input scadeName="i" scadeType="float64" targetName="i" targetType="kcg_float64"/>
+          <Output scadeName="o" scadeType="float64" targetName="o" targetType="kcg_float64"/>
+        </NoExpNode>
+      </Package>
+    </Package>
+    <Package scadeName="pwlinear">
+      <ExpNode scadeName="LimiterUnSymmetrical"/>
+    </Package>
+    <Package scadeName="lut"/>
+    <Package scadeName="verif"/>
+    <Package scadeName="Car">
+      <Constant macroDef="true" scadeName="Iengine" scadeType="float64" targetName="Iengine_Car" targetType="kcg_float64"/>
+      <Constant macroDef="true" scadeName="KBRAKE" scadeType="float64" targetName="KBRAKE_Car" targetType="kcg_float64"/>
+      <Constant scadeName="KTRANSM" scadeType="float64^(5)" targetName="KTRANSM_Car" targetType="array_float64_5"/>
+      <Constant macroDef="true" scadeName="MASS" scadeType="float64" targetName="MASS_Car" targetType="kcg_float64"/>
+      <Constant macroDef="true" scadeName="TCYCLE" scadeType="float64" targetName="TCYCLE_Car" targetType="kcg_float64"/>
+      <Constant macroDef="true" scadeName="Tengine" scadeType="float64" targetName="Tengine_Car" targetType="kcg_float64"/>
+      <Constant macroDef="true" scadeName="TorqMax" scadeType="float64" targetName="TorqMax_Car" targetType="kcg_float64"/>
+      <Constant macroDef="true" scadeName="VehicleDynamic" scadeType="float64" targetName="VehicleDynamic_Car" targetType="kcg_float64"/>
+      <NoExpNode headerFile="Body_Car.h" scadeName="Body" targetCycleFct="Body_Car" targetInitFct="Body_reset_Car" targetInitializationFct="Body_init_Car">
+        <Input scadeName="Torq" scadeType="CarType::tTorq" targetName="Torq" targetType="tTorq_CarType"/>
+        <Input scadeName="Brake" scadeType="CarType::tSpeed" targetName="Brake" targetType="tSpeed_CarType"/>
+        <Output inCtx="true" scadeName="VehicleSpeed" scadeType="CarType::tSpeed" targetName="VehicleSpeed" targetType="tSpeed_CarType"/>
+        <PreOp instName="15"/>
+        <InitOp instName="14"/>
+        <Memory inCtx="true" targetName="VehicleSpeed" targetType="tSpeed_CarType"/>
+        <Init inCtx="true" targetName="init" targetType="kcg_bool"/>
+        <OutCtxType targetName="outC_Body_Car"/>
+      </NoExpNode>
+      <NoExpNode headerFile="PowerTrainStatic_Car.h" scadeName="PowerTrainStatic" targetCycleFct="PowerTrainStatic_Car">
+        <Input scadeName="Throttle" scadeType="CarType::tSpeed" targetName="Throttle" targetType="tSpeed_CarType"/>
+        <Output scadeName="Torq" scadeType="CarType::tTorq" targetName="Torq" targetType="tTorq_CarType"/>
+        <NodeInstance instName="8" refName="ExpR64_mathext_mathextimpl" scadeName="mathext::mathextimpl::ExpR64"/>
+      </NoExpNode>
+      <NoExpNode headerFile="CarModel_Car.h" scadeName="CarModel" targetCycleFct="CarModel_Car" targetInitFct="CarModel_reset_Car" targetInitializationFct="CarModel_init_Car">
+        <Input scadeName="Throttle" scadeType="CarType::tPercent" targetName="Throttle" targetType="tPercent_CarType"/>
+        <Input scadeName="Brake" scadeType="CarType::tPercent" targetName="Brake" targetType="tPercent_CarType"/>
+        <Output inCtx="true" scadeName="VehicleSpeed" scadeType="CarType::tSpeed" targetName="VehicleSpeed" targetType="tSpeed_CarType"/>
+        <NodeInstance instName="1" refName="PowerTrainStatic_Car" scadeName="Car::PowerTrainStatic"/>
+        <NodeInstance instName="0" refName="Body_Car" scadeName="Car::Body">
+          <OutCtxVar targetName="Context_Body_0"/>
+        </NodeInstance>
+        <OutCtxType targetName="outC_CarModel_Car"/>
+      </NoExpNode>
+    </Package>
+    <Package scadeName="CarType">
+      <NamedType refType="kcg_float64" scadeName="tPercent" targetName="tPercent_CarType"/>
+      <NamedType refType="kcg_float64" scadeName="tRpm" targetName="tRpm_CarType"/>
+      <NamedType refType="kcg_float64" scadeName="tSpeed" targetName="tSpeed_CarType"/>
+      <NamedType refType="kcg_float64" scadeName="tTorq" targetName="tTorq_CarType"/>
+    </Package>
+    <ArrayType cellType="kcg_float64" size="5" targetCompFct="kcg_comp_array_float64_5" targetCopyFct="kcg_copy_array_float64_5" targetName="array_float64_5"/>
+    <PredefType scadeName="int8" targetName="kcg_int8"/>
+    <PredefType scadeName="int16" targetName="kcg_int16"/>
+    <PredefType scadeName="int32" targetName="kcg_int32"/>
+    <PredefType scadeName="int64" targetName="kcg_int64"/>
+    <PredefType scadeName="uint8" targetName="kcg_uint8"/>
+    <PredefType scadeName="uint16" targetName="kcg_uint16"/>
+    <PredefType scadeName="uint32" targetName="kcg_uint32"/>
+    <PredefType scadeName="uint64" targetName="kcg_uint64"/>
+    <PredefType scadeName="size" targetName="kcg_size"/>
+    <PredefType scadeName="float32" targetName="kcg_float32"/>
+    <PredefType scadeName="float64" targetName="kcg_float64"/>
+    <PredefType scadeName="bool" targetName="kcg_bool"/>
+    <PredefType scadeName="char" targetName="kcg_char"/>
+  </Model>

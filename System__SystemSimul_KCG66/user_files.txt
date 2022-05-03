@@ -1,0 +1,2 @@
+C:\Program Files\ANSYS Inc\v221\SCADE\SCADE\libraries\SC65\libmathext\macro_libmathext32.h
+C:\Program Files\ANSYS Inc\v221\SCADE\SCADE\libraries\SC65\libmathext\macro_libmathext64.h

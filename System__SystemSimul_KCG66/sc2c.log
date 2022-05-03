@@ -1,0 +1,82 @@
+$************** ANSYS(R) SCADE Suite(R) - SCADETOC - Version 2022 R1 (build 20211130T163409) **************
+** Generation date: 2022-04-26T09:36:49
+** Command: scade -code "C:\Users\missael\Documents\CINVESTAV\embedded critical software\Project\CC-003\CC-003.etp" -root System::SystemSimul -conf KCG_CODE
+*************************************************************$
+*** Generated Files Information (GENFIL): KCG- Generated files
+  at file C:\Users\missael\Documents\CINVESTAV\embedded critical software\Project\CC-003\System__SystemSimul_KCG66\mapping.xml, line 0, character 0
+ ~mapping.xml
+  at file C:\Users\missael\Documents\CINVESTAV\embedded critical software\Project\CC-003\System__SystemSimul_KCG66\kcg_metrics.txt, line 0, character 0
+ ~kcg_metrics.txt
+  at file C:\Users\missael\Documents\CINVESTAV\embedded critical software\Project\CC-003\System__SystemSimul_KCG66\SystemSimul_System.c, line 0, character 0
+ ~SystemSimul_System.c
+  at file C:\Users\missael\Documents\CINVESTAV\embedded critical software\Project\CC-003\System__SystemSimul_KCG66\AutonomousEmergencyBrake_AutonomousEmergencyBrake.c, line 0, character 0
+ ~AutonomousEmergencyBrake_AutonomousEmergencyBrake.c
+  at file C:\Users\missael\Documents\CINVESTAV\embedded critical software\Project\CC-003\System__SystemSimul_KCG66\IfCases_AutonomousEmergencyBrake.c, line 0, character 0
+ ~IfCases_AutonomousEmergencyBrake.c
+  at file C:\Users\missael\Documents\CINVESTAV\embedded critical software\Project\CC-003\System__SystemSimul_KCG66\ArduinoCalculation_AutonomousEmergencyBrake.c, line 0, character 0
+ ~ArduinoCalculation_AutonomousEmergencyBrake.c
+  at file C:\Users\missael\Documents\CINVESTAV\embedded critical software\Project\CC-003\System__SystemSimul_KCG66\CruiseControl_CruiseControl.c, line 0, character 0
+ ~CruiseControl_CruiseControl.c
+  at file C:\Users\missael\Documents\CINVESTAV\embedded critical software\Project\CC-003\System__SystemSimul_KCG66\CruiseSpeedMgt_CruiseControl.c, line 0, character 0
+ ~CruiseSpeedMgt_CruiseControl.c
+  at file C:\Users\missael\Documents\CINVESTAV\embedded critical software\Project\CC-003\System__SystemSimul_KCG66\CruiseRegulation_CruiseControl.c, line 0, character 0
+ ~CruiseRegulation_CruiseControl.c
+  at file C:\Users\missael\Documents\CINVESTAV\embedded critical software\Project\CC-003\System__SystemSimul_KCG66\SaturateThrottle_CruiseControl.c, line 0, character 0
+ ~SaturateThrottle_CruiseControl.c
+  at file C:\Users\missael\Documents\CINVESTAV\embedded critical software\Project\CC-003\System__SystemSimul_KCG66\CarModel_Car.c, line 0, character 0
+ ~CarModel_Car.c
+  at file C:\Users\missael\Documents\CINVESTAV\embedded critical software\Project\CC-003\System__SystemSimul_KCG66\Body_Car.c, line 0, character 0
+ ~Body_Car.c
+  at file C:\Users\missael\Documents\CINVESTAV\embedded critical software\Project\CC-003\System__SystemSimul_KCG66\PowerTrainStatic_Car.c, line 0, character 0
+ ~PowerTrainStatic_Car.c
+  at file C:\Users\missael\Documents\CINVESTAV\embedded critical software\Project\CC-003\System__SystemSimul_KCG66\SystemSimul_System.h, line 0, character 0
+ ~SystemSimul_System.h
+  at file C:\Users\missael\Documents\CINVESTAV\embedded critical software\Project\CC-003\System__SystemSimul_KCG66\AutonomousEmergencyBrake_AutonomousEmergencyBrake.h, line 0, character 0
+ ~AutonomousEmergencyBrake_AutonomousEmergencyBrake.h
+  at file C:\Users\missael\Documents\CINVESTAV\embedded critical software\Project\CC-003\System__SystemSimul_KCG66\IfCases_AutonomousEmergencyBrake.h, line 0, character 0
+ ~IfCases_AutonomousEmergencyBrake.h
+  at file C:\Users\missael\Documents\CINVESTAV\embedded critical software\Project\CC-003\System__SystemSimul_KCG66\ArduinoCalculation_AutonomousEmergencyBrake.h, line 0, character 0
+ ~ArduinoCalculation_AutonomousEmergencyBrake.h
+  at file C:\Users\missael\Documents\CINVESTAV\embedded critical software\Project\CC-003\System__SystemSimul_KCG66\CruiseControl_CruiseControl.h, line 0, character 0
+ ~CruiseControl_CruiseControl.h
+  at file C:\Users\missael\Documents\CINVESTAV\embedded critical software\Project\CC-003\System__SystemSimul_KCG66\CruiseSpeedMgt_CruiseControl.h, line 0, character 0
+ ~CruiseSpeedMgt_CruiseControl.h
+  at file C:\Users\missael\Documents\CINVESTAV\embedded critical software\Project\CC-003\System__SystemSimul_KCG66\CruiseRegulation_CruiseControl.h, line 0, character 0
+ ~CruiseRegulation_CruiseControl.h
+  at file C:\Users\missael\Documents\CINVESTAV\embedded critical software\Project\CC-003\System__SystemSimul_KCG66\SaturateThrottle_CruiseControl.h, line 0, character 0
+ ~SaturateThrottle_CruiseControl.h
+  at file C:\Users\missael\Documents\CINVESTAV\embedded critical software\Project\CC-003\System__SystemSimul_KCG66\CarModel_Car.h, line 0, character 0
+ ~CarModel_Car.h
+  at file C:\Users\missael\Documents\CINVESTAV\embedded critical software\Project\CC-003\System__SystemSimul_KCG66\Body_Car.h, line 0, character 0
+ ~Body_Car.h
+  at file C:\Users\missael\Documents\CINVESTAV\embedded critical software\Project\CC-003\System__SystemSimul_KCG66\PowerTrainStatic_Car.h, line 0, character 0
+ ~PowerTrainStatic_Car.h
+  at file C:\Users\missael\Documents\CINVESTAV\embedded critical software\Project\CC-003\System__SystemSimul_KCG66\kcg_types.h, line 0, character 0
+ ~kcg_types.h
+  at file C:\Users\missael\Documents\CINVESTAV\embedded critical software\Project\CC-003\System__SystemSimul_KCG66\kcg_consts.h, line 0, character 0
+ ~kcg_consts.h
+  at file C:\Users\missael\Documents\CINVESTAV\embedded critical software\Project\CC-003\System__SystemSimul_KCG66\kcg_sensors.h, line 0, character 0
+ ~kcg_sensors.h
+  at file C:\Users\missael\Documents\CINVESTAV\embedded critical software\Project\CC-003\System__SystemSimul_KCG66\kcg_imported_functions.h, line 0, character 0
+ ~kcg_imported_functions.h
+  at file C:\Users\missael\Documents\CINVESTAV\embedded critical software\Project\CC-003\System__SystemSimul_KCG66\kcg_types.c, line 0, character 0
+ ~kcg_types.c
+  at file C:\Users\missael\Documents\CINVESTAV\embedded critical software\Project\CC-003\System__SystemSimul_KCG66\kcg_consts.c, line 0, character 0
+ ~kcg_consts.c
+  at file C:\Users\missael\Documents\CINVESTAV\embedded critical software\Project\CC-003\System__SystemSimul_KCG66\kcg_xml_filter_out.scade, line 0, character 0
+ ~kcg_xml_filter_out.scade
+  at file C:\Users\missael\Documents\CINVESTAV\embedded critical software\Project\CC-003\System__SystemSimul_KCG66\config.txt, line 0, character 0
+ ~config.txt
+*** Generated Files Information (GENFIL): Code Generator Generated files
+  at file C:\Users\missael\Documents\CINVESTAV\embedded critical software\Project\CC-003\System__SystemSimul_KCG66\user_macros.h, line 0, character 0
+ ~user_macros.h
+  at file C:\Users\missael\Documents\CINVESTAV\embedded critical software\Project\CC-003\System__SystemSimul_KCG66\kcg_imported_types.h, line 0, character 0
+ ~kcg_imported_types.h
+  at file C:\Users\missael\Documents\CINVESTAV\embedded critical software\Project\CC-003\System__SystemSimul_KCG66\sc2c.log, line 0, character 0
+ ~sc2c.log
+  at file C:\Users\missael\Documents\CINVESTAV\embedded critical software\Project\CC-003\System__SystemSimul_KCG66\sc2c_integration_files.txt, line 0, character 0
+ ~sc2c_integration_files.txt
+$************** ANSYS(R) SCADE Suite(R) - SCADETOC - Version 2022 R1 (build 20211130T163409) **************
+** Generation date: 2022-04-26T09:37:00
+** sc2c.log
+*************************************************************$
